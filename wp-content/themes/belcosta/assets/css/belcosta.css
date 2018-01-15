@@ -30,7 +30,12 @@ h5 {
 }
 
 .footer .container {
-    padding: 56px 0 37px 0;
+    padding: 56px 0 0px 0;
+}
+
+.footer-nav.footer-nav {
+    padding-top: 0px;
+    padding-bottom: 37px;
 }
 
 #footer-right {
@@ -52,6 +57,22 @@ h5 {
 .footer a {
     color: #648AAA;
 }
+
+.footer-nav ul {
+    padding-left: 15px;
+    margin-left: 0px;
+}
+
+.seperate {
+    padding: 40px 0 15px 0;
+}
+
+.footer hr {
+    border-top: 1px solid #648AAA;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
 
 /* HOME PAGE */
 

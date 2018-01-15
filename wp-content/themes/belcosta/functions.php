@@ -696,6 +696,12 @@ class Insomnia_My_Walker_Nav_Menu extends Walker_Nav_Menu {
   }
 }
 
+// BelCosta Navigation Menus
+
+register_nav_menus(array(
+  'footer-menu' => __( 'Footer Menu'),
+));
+
 function cc_mime_types($mimes) {
   $mimes['svg'] = 'image/svg+xml';
   return $mimes;

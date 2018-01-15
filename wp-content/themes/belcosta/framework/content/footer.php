@@ -14,9 +14,24 @@
 				</ul>
 				</div>
 			</div>
-			<hr>
-			<hr>
+			<div class="seperate">
+				<hr>
+				<hr>
+			</div>
 		</div>
-				 
+		<div class="container footer-nav">
+			<div class="row">
+				<?php
+
+			$args = array(
+				'theme_location' => 'footer-menu'
+			);
+
+			?>
+
+			<?php wp_nav_menu(  $args ); ?>		 
+			</div>
+		</div>
+		
 	</div>
 </footer>
