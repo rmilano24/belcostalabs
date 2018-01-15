@@ -24,6 +24,35 @@ h5 {
     margin: 50px auto;
 }
 
+.footer {
+    background-color: #222E38 !important;
+    color: #648AAA;
+}
+
+.footer .container {
+    padding: 56px 0 37px 0;
+}
+
+#footer-right {
+    text-align: right;
+}
+
+.footer li {
+    display: inline;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+    padding-right: 25px;
+}
+
+.footer li:last-child {
+    padding-right: 0px;
+}
+
+.footer a {
+    color: #648AAA;
+}
+
 /* HOME PAGE */
 
 #bg_home-hero {
