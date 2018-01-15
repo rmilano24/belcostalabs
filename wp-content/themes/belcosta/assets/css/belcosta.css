@@ -1,3 +1,47 @@
-body {
-    border:1px solid red;
+/* TYPOGRAPHY */
+
+h1 {
+    font-size: 50px !important; 
 }
+h2
+h3
+h4
+h5 {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+/* GLOBAL */
+
+.logo {
+    padding-bottom: 26px;
+}
+
+.lead-in .wpb_text_column {
+    text-align: center;
+    width: 779px;
+    margin: 50px auto;
+}
+
+/* HOME PAGE */
+
+#bg_home-hero {
+    height: 746px;
+}
+
+#bg_home-hero .wpb_wrapper {
+    padding-top: 120px;
+}
+
+#bg_home-hero h1 {
+    color: #fff;
+}
+
+#bg_home-hero h5 {
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+

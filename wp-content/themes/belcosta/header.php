@@ -92,5 +92,5 @@
 <?php if(get_theme_mod('insomnia_background_grey') == true)  { ?>
   <div class="main-content grey">
 <?php } else  { ?>
-  <div class="main-content">
+  <div class="main-content-wrapper">
 <?php }; ?>  
