@@ -29,6 +29,29 @@ h5 {
     text-transform: uppercase;
 }
 
+.secondary-nav {
+    background: #222E38;
+    height: 45px;
+}
+
+.secondary-nav ul {
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.secondary-nav li {
+    display: inline;
+    padding-left: 20px;
+}
+
+.secondary-nav li:first-child {
+    padding-left: 0px;
+}
+
+.secondary-nav a {
+    color: #fff;
+}
+
 .lead-in .wpb_text_column {
     text-align: center;
     max-width: 779px;
