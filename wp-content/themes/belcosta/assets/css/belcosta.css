@@ -31,7 +31,7 @@ h5 {
 
 .lead-in .wpb_text_column {
     text-align: center;
-    width: 779px;
+    max-width: 779px;
     margin: 65px auto 150px auto;
 }
 
@@ -109,9 +109,19 @@ h5 {
 .bg_blue {
     background: #24A1AD;
     color: #fff;
+    overflow: unset !important;
+}
+
+.bg_white {
+    overflow: unset !important;
 }
 
 .bg_light-blue {
     background: #C2E4E3;
     color: #8A8A8A;
+    overflow: unset !important;
+}
+
+.bg_blue img, .bg_white img, .bg_light-blue img {
+    margin-top: -100px;
 }
