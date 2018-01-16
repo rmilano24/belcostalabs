@@ -35,6 +35,15 @@ h5 {
     margin: 65px auto 150px auto;
 }
 
+.lead-in h2::after {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 5px;
+    background: #C2E4E3;
+    margin: 15px auto 0 auto;
+}
+
 .footer {
     background-color: #222E38 !important;
     color: #648AAA;
@@ -112,8 +121,45 @@ h5 {
     overflow: unset !important;
 }
 
+.bg_blue h2::before {
+    content: "01";
+    font-size: 14px;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    letter-spacing: 5px;
+}
+
+.bg_blue h2::after {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 5px;
+    background: #fff;
+    margin:20px 0 25px 0;
+}
+
 .bg_white {
     overflow: unset !important;
+}
+
+.bg_white h2::before {
+    content: "02";
+    font-size: 14px;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    letter-spacing: 5px;
+    color: #C2E4E3;
+}
+
+.bg_white h2::after {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 5px;
+    background: #C2E4E3;
+    margin:20px 0 25px 0;
 }
 
 .bg_light-blue {
@@ -122,6 +168,30 @@ h5 {
     overflow: unset !important;
 }
 
+.bg_light-blue h2::before {
+    content: "03";
+    font-size: 14px;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    letter-spacing: 5px;
+    color: #24A1AD;
+}
+
+.bg_light-blue h2::after {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 5px;
+    background: #24A1AD;
+    margin:20px 0 25px 0;
+}
+
+.bg_light-blue h2 {
+    color: #222E38;
+}
+
 .bg_blue img, .bg_white img, .bg_light-blue img {
     margin-top: -100px;
+    opacity: 1;
 }
