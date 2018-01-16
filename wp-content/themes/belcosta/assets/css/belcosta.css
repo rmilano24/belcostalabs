@@ -52,10 +52,14 @@ h5 {
     color: #fff;
 }
 
+.bg_inner-hero {
+    height: 450px;
+}
+
 .lead-in .wpb_text_column {
     text-align: center;
     max-width: 779px;
-    margin: 65px auto 150px auto;
+    margin: 30px auto 65px auto;
 }
 
 .lead-in h2::after {
@@ -118,6 +122,12 @@ h5 {
 
 
 /* HOME PAGE */
+
+.home .lead-in .wpb_text_column {
+    text-align: center;
+    max-width: 779px;
+    margin: 65px auto 150px auto;
+}
 
 #bg_home-hero {
     height: 746px;
@@ -235,3 +245,74 @@ h5 {
     margin-top: 50px;
 } 
 
+/* SERVICES PAGE */
+
+#service-accordion .vc_column_container>.vc_column-inner {
+    padding: 0px;
+}
+
+.wpb-js-composer .vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-heading {
+    border: none;
+}
+
+#service-accordion .wpb-js-composer .vc_tta.vc_tta-shape-rounded .vc_tta-panel-body, .wpb-js-composer .vc_tta.vc_tta-shape-rounded .vc_tta-panel-heading, .wpb-js-composer .vc_tta.vc_tta-shape-rounded .vc_tta-tab>a {
+    border-radius: 0px !important;
+}
+
+.wpb-js-composer .vc_tta-color-grey.vc_tta-style-classic .vc_active .vc_tta-panel-heading .vc_tta-controls-icon::after, .wpb-js-composer .vc_tta-color-grey.vc_tta-style-classic .vc_active .vc_tta-panel-heading .vc_tta-controls-icon::before, .wpb-js-composer .vc_tta-color-grey.vc_tta-style-classic .vc_tta-controls-icon::after, .wpb-js-composer .vc_tta-color-grey.vc_tta-style-classic .vc_tta-controls-icon::before {
+    border-color: #fff !important;
+}
+
+.wpb-js-composer .vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-heading {
+    background: #24A1AD !important;
+}
+
+.wpb-js-composer .vc_tta-color-grey.vc_tta-style-classic .vc_active .vc_tta-panel-heading {
+    background: #32BECC !important;
+}
+
+#service-accordion .vc_tta-color-grey .vc_tta-title-text {
+    color: #fff !important;
+    font-size: 30px;
+}
+
+#service-accordion .vc_tta-panel-heading, .wpb-js-composer .vc_tta.vc_general .vc_tta-panel-title>a {
+    padding: 40px 0 !important;
+}
+
+.wpb-js-composer .vc_tta.vc_general .vc_tta-panel {
+    margin: 8px 0 !important;
+}
+
+#service-accordion .vc_tta-panel-title {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#service-accordion .vc_tta-panel-body {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: transparent;
+    border: none;
+}
+
+.wpb-js-composer .vc_tta .vc_tta-controls-icon.vc_tta-controls-icon-plus::after {
+    content: "^" !important;
+    border: none !important;
+    color: #fff !important; 
+    font-style: normal;
+    font-style: 30px !important;
+}
+
+.wpb-js-composer .vc_tta .vc_tta-controls-icon.vc_tta-controls-icon-plus::before  {
+    display: none !important;
+}
+
+#service-accordion h2::after {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 5px;
+    background: #C2E4E3;
+    margin:20px 0 25px 0;
+}
