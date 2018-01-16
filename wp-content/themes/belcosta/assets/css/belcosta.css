@@ -195,3 +195,20 @@ h5 {
     margin-top: -100px;
     opacity: 1;
 }
+
+@media (min-width : 992px) and (max-width : 1999px) {
+    .bg_blue img, .bg_white img, .bg_light-blue img {
+        margin-top: -50px;
+    }
+}
+
+@media (max-width : 991px) {
+    .bg_blue img, .bg_white img, .bg_light-blue img {
+        margin-top: 50px;
+    }
+}
+
+.bg_blue .wpb_text_column, .bg_white .wpb_text_column, .bg_light-blue .wpb_text_column {
+    margin-top: 50px;
+} 
+
