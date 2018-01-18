@@ -94,7 +94,15 @@ h5 {
     text-transform: uppercase;
     font-size: 12px;
     letter-spacing: 2px;
-    padding-right: 25px;
+}
+
+.footer li::after {
+    content: "//";
+    padding: 0px 12px;
+}
+
+.footer li:last-child::after {
+    content: "";
 }
 
 .footer li:last-child {
@@ -117,7 +125,7 @@ h5 {
 .footer hr {
     border-top: 1px solid #648AAA;
     margin-top: 0px;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
 }
 
 
@@ -149,7 +157,8 @@ h5 {
 }
 
 .bg_blue {
-    background: #24A1AD;
+    background: url('../images/bg_blue-texture.jpg') top left;
+    background-size: cover;
     color: #fff;
     overflow: unset !important;
 }
@@ -196,7 +205,8 @@ h5 {
 }
 
 .bg_light-blue {
-    background: #C2E4E3;
+    background: url('../images/bg_light-blue-texture.jpg') top left;
+    background-size: cover;
     color: #8A8A8A;
     overflow: unset !important;
 }
