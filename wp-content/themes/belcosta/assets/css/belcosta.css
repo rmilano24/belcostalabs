@@ -4,7 +4,9 @@ h1 {
     font-size: 50px !important; 
 }
 h2
-h3
+h3 {
+    font-style: 22px;
+}
 h4
 h5 {
     font-size: 14px;
@@ -19,7 +21,15 @@ h5 {
 }
 
 .nav {
-    padding-top: 15px;
+    padding-top: 45px;
+}
+
+.nav li {
+    padding-left: 45px;
+}
+
+.nav li:first-child {
+    padding-left: 0px;
 }
 
 .nav a {
@@ -27,6 +37,19 @@ h5 {
     letter-spacing: 2px !important;
     color: #222E38;
     text-transform: uppercase;
+}
+
+.nav > li > a {
+    padding: 0px !important;
+}
+
+.current-menu-item a::after {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 5px;
+    background: #24A1AD;
+    margin: 5px auto 0 auto;
 }
 
 .secondary-nav {
@@ -156,6 +179,21 @@ h5 {
     letter-spacing: 5px;
 }
 
+.bg_inner-hero {
+    padding-top: 150px !important;
+}
+
+.bg_inner-hero h1 {
+    color: #fff;
+}
+
+.bg_inner-hero h5 {
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
 .bg_blue {
     background: url('../images/bg_blue-texture.jpg') top left;
     background-size: cover;
@@ -257,6 +295,10 @@ h5 {
 
 /* SERVICES PAGE */
 
+
+
+/* START ACCORDION */
+
 #service-accordion .vc_column_container>.vc_column-inner {
     padding: 0px;
 }
@@ -274,7 +316,8 @@ h5 {
 }
 
 .wpb-js-composer .vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-heading {
-    background: #24A1AD !important;
+    background: url('../images/bg_blue-texture.jpg') top left;
+    background-size: cover;
 }
 
 .wpb-js-composer .vc_tta-color-grey.vc_tta-style-classic .vc_active .vc_tta-panel-heading {
@@ -287,7 +330,7 @@ h5 {
 }
 
 #service-accordion .vc_tta-panel-heading, .wpb-js-composer .vc_tta.vc_general .vc_tta-panel-title>a {
-    padding: 40px 0 !important;
+    padding: 30px 0 !important;
 }
 
 .wpb-js-composer .vc_tta.vc_general .vc_tta-panel {
@@ -325,4 +368,18 @@ h5 {
     height: 5px;
     background: #C2E4E3;
     margin:20px 0 25px 0;
+}
+
+/* END ACCORDION */
+
+.bg_callout {
+    background: #D0EAEA;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+.bg_callout img {
+    position: absolute;
+    top: -200px;
+    right: -30px;
 }
