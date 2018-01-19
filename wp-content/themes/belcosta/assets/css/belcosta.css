@@ -55,7 +55,7 @@ h6 {
     padding: 0px !important;
 }
 
-.current-menu-item a::after {
+.header .current-menu-item a::after {
     content: "";
     display: block;
     width: 25px;
@@ -76,7 +76,7 @@ h6 {
 
 .secondary-nav li {
     display: inline;
-    padding-left: 20px;
+    padding-left: 40px;
 }
 
 .secondary-nav li:first-child {
@@ -85,6 +85,11 @@ h6 {
 
 .secondary-nav a {
     color: #fff;
+}
+
+.secondary-nav .current_page_item a {
+    color: #24A1AD;
+    font-style: italic;
 }
 
 .bg_inner-hero {
