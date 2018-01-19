@@ -26,7 +26,7 @@
 		</div>
 		<div class="container footer-nav">
 			<div class="row">
-				<?php
+			<?php
 
 			$args = array(
 				'theme_location' => 'footer-menu'
