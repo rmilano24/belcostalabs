@@ -6,13 +6,15 @@
 <div class="secondary-nav">
     <div class="container">
         <div class="row">
-            <ul>
-                <li><a href="http://">link</a></li>
-                <li><a href="http://">link</a></li>
-                <li><a href="http://">link</a></li>
-                <li><a href="http://">link</a></li>
-                <li><a href="http://">link</a></li>
-            </ul>
+            <?php
+
+            $args = array(
+                'theme_location' => 'services-menu'
+            );
+
+            ?>
+
+            <?php wp_nav_menu(  $args ); ?>		
         </div>
     </div>
 </div>

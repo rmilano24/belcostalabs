@@ -7,11 +7,23 @@ h2
 h3 {
     font-style: 22px;
 }
-h4
+h4 {
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-bottom: 15px !important;
+}
 h5 {
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 5px;
+}
+h6 {
+    color: #C2E4E3 !important;
+    font-style: 14px !important;
+    font-weight: bold !important;
+    letter-spacing: 5px;
+    margin-bottom: 15px !important;
 }
 
 /* GLOBAL */
@@ -374,7 +386,7 @@ h5 {
 
 .bg_callout {
     background: #D0EAEA;
-    padding: 30px;
+    padding: 40px;
     margin-bottom: 50px;
 }
 
@@ -382,4 +394,20 @@ h5 {
     position: absolute;
     top: -200px;
     right: -30px;
+}
+
+.bg_callout ul {
+    margin: 20px 0 0 0;
+    padding:0px;
+    column-count: 2;
+    list-style-type: none;
+    font-style: 16px;
+    font-style: italic;
+}
+
+.bg_callout li::before {
+    content: ">";
+    color: #24A1AD;
+    font-size: 20px;
+    padding-right: 5px;
 }

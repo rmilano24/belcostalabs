@@ -700,6 +700,7 @@ class Insomnia_My_Walker_Nav_Menu extends Walker_Nav_Menu {
 
 register_nav_menus(array(
   'footer-menu' => __( 'Footer Menu'),
+  'services-menu' => __( 'Services Menu'),
 ));
 
 function cc_mime_types($mimes) {
