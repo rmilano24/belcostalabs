@@ -1,3 +1,11 @@
+<section class="cta">
+	<div class="container">
+		<div class="row">
+			<span class="underline">Questions?</span> <a href="/contact-us">Get in Touch</a> 
+		</div>
+	</div>
+</section>
+
 <footer>
 	<div class="footer">	
 		<div class="container">
@@ -40,3 +48,4 @@
 		
 	</div>
 </footer>
+

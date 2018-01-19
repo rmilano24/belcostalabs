@@ -26,6 +26,24 @@ h6 {
     margin-bottom: 15px !important;
 }
 
+/* BUTTONS */
+
+.vc_btn3-color-white {
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #24A1AD !important;
+    text-transform: uppercase;
+}
+
+.vc_btn3-color-primary {
+    font-size: 16px;
+    letter-spacing: 2px;
+    background: #24A1AD !important;
+    text-transform: uppercase;
+    border: none !important;
+}
+
+
 /* GLOBAL */
 
 .logo {
@@ -109,6 +127,22 @@ h6 {
     height: 5px;
     background: #C2E4E3;
     margin: 15px auto 0 auto;
+}
+
+.cta {
+    text-align: center;
+    padding: 90px 0;
+    font-size: 50px;
+}
+
+.cta a {
+    font-size: 80px;
+    color: #24A1AD;
+    font-style: italic;
+}
+
+.page-id-1833 .cta {
+    display: none;
 }
 
 .footer {
@@ -216,6 +250,13 @@ h6 {
     background-size: cover;
     color: #fff;
     overflow: unset !important;
+    display: flex;
+}
+
+.bg_blue .bg_content {
+    background: #24A1AD;
+    height: 100%;
+    padding: 0 40px;
 }
 
 .bg_blue h2::before {
@@ -238,6 +279,13 @@ h6 {
 
 .bg_white {
     overflow: unset !important;
+    display: flex;
+}
+
+.bg_white .bg_content {
+    background: #ffffff;
+    height: 100%;
+    padding: 0 40px;
 }
 
 .bg_white h2::before {
@@ -264,6 +312,13 @@ h6 {
     background-size: cover;
     color: #8A8A8A;
     overflow: unset !important;
+    display: flex;
+}
+
+.bg_light-blue .bg_content {
+    background: #D0EAEA;
+    height: 100%;
+    padding: 0 40px;
 }
 
 .bg_light-blue h2::before {
@@ -415,4 +470,10 @@ h6 {
     color: #24A1AD;
     font-size: 20px;
     padding-right: 5px;
+}
+
+/* CONTACT PAGE */
+
+.contact-form {
+    margin-bottom: 80px;
 }
