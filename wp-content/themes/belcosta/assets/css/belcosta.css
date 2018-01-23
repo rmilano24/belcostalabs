@@ -3,7 +3,9 @@
 h1 {
     font-size: 50px !important; 
 }
-h2
+h2 {
+    line-height: 40px !important;
+}
 h3 {
     font-style: 22px;
 }
