@@ -371,6 +371,15 @@ h6 {
     margin-top: 50px;
 } 
 
+/* TABLE STYLES */
+
+.tablepress tfoot th, .tablepress thead th {
+    background-color: #222E38 !important;
+    color: #fff;
+}
+
+
+
 /* SERVICES PAGE */
 
 
@@ -409,6 +418,10 @@ h6 {
 
 #service-accordion .vc_tta-panel-heading, .wpb-js-composer .vc_tta.vc_general .vc_tta-panel-title>a {
     padding: 30px 0 !important;
+}
+
+.wpb-js-composer .vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-heading:hover {
+    opacity: 0.8 !important;
 }
 
 .wpb-js-composer .vc_tta.vc_general .vc_tta-panel {

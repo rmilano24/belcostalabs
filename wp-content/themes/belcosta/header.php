@@ -9,7 +9,7 @@
   <?php if ( ! function_exists( 'has_site_icon' ) || ! has_site_icon() ) {?><link rel="shortcut icon" href="<?php echo esc_url(get_theme_mod('insomnia_logo_favicon', get_template_directory_uri() . '/assets/images/favicon.png')); ?>"> <?php };?>
 	<?php if(get_theme_mod('insomnia_logo_favicon_iphone', 'enable'))  : ?><link rel="apple-touch-icon" sizes="114x114" href="<?php echo esc_url(get_theme_mod('insomnia_logo_favicon_iphone', get_template_directory_uri() . '/assets/images/114.png')); ?>" /><?php endif; ?>
 	<?php if(get_theme_mod('insomnia_logo_favicon_ipad', 'enable'))  : ?><link rel="apple-touch-icon" sizes="144x144" href="<?php echo esc_url(get_theme_mod('insomnia_logo_favicon_ipad', get_template_directory_uri() . '/assets/images/144.png')); ?>" /><?php endif; ?>
-   
+    <link rel="stylesheet" href="https://use.typekit.net/ykv2zxd.css">
     <link rel="stylesheet" href=" <?php echo get_stylesheet_directory_uri(); ?>/assets/css/belcosta.css">
   <?php wp_head(); ?>
 </head>
